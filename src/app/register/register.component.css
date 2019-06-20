@@ -1,0 +1,63 @@
+h1{
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+button {
+
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 0;
+  border: solid 1px transparent;
+  border-radius: 4px;
+  padding: 0.5em 1em;
+  color: #ffffff;
+  background-color: #9555af;
+}
+button :active {
+  transform: translateY(1px);
+  filter: saturate(150%);
+}
+button:hover {
+  color: #9050AA;
+  border-color: currentColor;
+  background-color: white;
+  cursor: pointer;
+}
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 105, 180, 0.5),
+  0 0 0 1.5px rgba(255, 105, 180, 0.5);
+}
+
+form {
+  border: 2px solid #9050AA;
+  border-radius: 4px;
+  padding: 7px;
+  margin-bottom: 10px;
+  background-color: lavender;
+}
+form input{
+  box-sizing: border-box;
+  padding: 6px;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 15px;
+
+}
+.container {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+p{
+  margin-top: 10px;
+}
+label{
+  margin: 5px;
+  font-size: 20px;
+  display: block;
+}
+

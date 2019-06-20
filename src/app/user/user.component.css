@@ -1,0 +1,34 @@
+.container {
+  width: 720px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+}
+a{
+  text-align: center;
+  width: 400px;
+  text-decoration: none;
+  border: solid 1px transparent;
+  border-radius: 4px;
+  padding: 0.5em 1em;
+  color: #ffffff;
+  background-color: #9555af;
+}
+a:hover {
+  color: red;
+  border-color: currentColor;
+  background-color: white;
+  cursor: pointer;
+}
+h1{
+  margin: 10px;
+}
+form {
+  border: 2px solid #9050AA;
+  border-radius: 4px;
+  padding: 7px;
+  margin-bottom: 10px;
+}
